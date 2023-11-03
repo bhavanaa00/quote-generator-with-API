@@ -1,0 +1,29 @@
+body{
+    background:rgba(0,0,0,0.4)url(pexels-dapo-abideen-5677459.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: "Poppins", sans-serif;
+}
+
+.wraper{
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container{
+    text-align: center;
+    background-color:wheat;
+    padding: 50px 40px;
+    box-shadow: 0 20px 65px rgba(0, 0, 0, 0.5);
+}
+
+#btn{
+    background-color: hotpink;
+    padding: 8px 15px;
+    border-radius: 0px;
+    border: none;
+    cursor: pointer;
+}
